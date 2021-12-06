@@ -1,0 +1,216 @@
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.container {
+  margin-left: 14.4%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section2 {
+  display: flex;
+  align-items: center;
+  margin-right: 14.4%;
+  font-size: 10px;
+  font-weight: 400;
+}
+.meny {
+  padding: 5px 15px;
+  font-size: 18px;
+}
+
+.master-container {
+  display: flex;
+  padding-left: 14.4%;
+  padding-right: 14.4%;
+ 
+
+}
+
+.Astronaut1 {
+  max-height: 361px;
+  flex: 2 1 0;
+
+}
+.Astronaut2 {
+
+  max-height: 361px;
+  flex: 2 1 0;
+}
+.Astronaut3 {
+  max-height: 361px;
+  flex: 1 1 0;
+}
+.Astronaut4 {
+
+  max-height: 361px;
+  flex: 1 1 0;
+}
+.master-container p {
+  padding-left: 5%;
+  padding-right: 5%;
+  color: white;
+}
+.display {
+  display:none;
+}
+.flex-items {
+  width: 260px;
+  margin: 10px;
+ 
+}
+.block {
+
+  min-height: 191px;
+  background-color: #86528B;
+  flex: 2 1 0;
+
+}
+.block2 {
+  min-height: 191px;
+  background-color: #2878C8;
+  flex: 2 1 0;
+
+}
+.block3 {
+  min-height: 191px;
+  background-color: #F75C9A;
+  
+  flex: 1 1 0;
+}
+.block4 {
+  min-height: 191px;
+  background-color: #EA001B;
+  flex: 1 1 0;
+
+}
+.block5 {
+  min-height: 191px;
+  background-color: #FFCC01;
+  flex: 2 1 0;
+
+}
+.block6 {
+  min-height: 191px;
+  background-color: #26A698;
+  flex: 1 1 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+.block7 {
+  min-height: 191px;
+  background-color: #ffffff;
+  flex: 1 1 0;
+
+}
+.block8 {
+  min-height: 191px;
+  background-color: #F75C9A;
+  flex: 1 1 0;
+
+}
+.block9 {
+  min-height: 191px;
+  background-color: #26A698;
+  flex: 1 1 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.exhibition p {
+  font-weight: 400;
+  font-size: 13;
+}
+.exhibition h1 {
+  font-weight: 900;
+  font-size: 25;
+}
+.exhibition-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.exhibition-container p{
+  text-align: left;
+
+}
+.flex-exhibition {
+  width: 50%;
+}
+.exhibition-width {
+  width: 50%;
+}
+.ikon-bilder {
+  height: 60px;
+}
+.twitter {
+  padding-top: 5px;
+}
+#color-evolution {
+  color:#2878C8 ;
+}
+#color-biology {
+  color: #86528B;
+}
+#color-robotics {
+  color: #EA001B;
+}
+#color-ecology {
+  color: #26A698;
+}
+@media only screen and (max-width: 1100px) {
+
+  .block3 {
+    display: none;
+  }
+  .block7 {
+    display: none;
+  }
+  .display {
+    display: flex;
+  }
+  .block6 {
+    display: none;
+  }
+  .block5 {
+    flex: 1 1 0;
+  }
+  .flex-exhibition {
+    width: 70%;
+}
+@media only screen and (max-width: 620px) {
+  .section2 {
+    display: none;
+  }
+  .forsidebilde {
+    margin-top: 0%;
+  }
+  .master-container {
+    flex-direction: column;
+    padding-left: 0%;
+    padding-right: 0%;
+    align-items: center;
+  }
+  .flex-items {
+    width: 90%;
+  }
+  .container {
+    margin-left: 5%;
+
+  }
+  .flex-exhibition {
+    width: 90%;
+  }
+}
+
