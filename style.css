@@ -3,7 +3,7 @@
  body p{
   font-family: "Libre Franklin", sans-serif;
   font-family: "Montserrat", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 12px;
 
  }
@@ -41,6 +41,11 @@ a:active {
     padding-right: 5%;
     color: white;
   }
+   .container h1{
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+  }
   .container-tickets h1{
     color: white;
   }
@@ -57,7 +62,6 @@ a:active {
       "content4 content5 content6"
       "footer footer footer";
     grid-gap: 0.5rem;
-    text-transform: uppercase;
     font-size: 15px;
     text-align: center;
   }
@@ -89,13 +93,39 @@ grid-template-areas:
   "content-gallery content-gallery content-gallery"
   "content-gallery content-gallery content-gallery"
   "footer footer footer";
-text-transform: uppercase;
 text-align: center;
 justify-content: center;
 font-size: 15px;
 
 }
+.container-exhibition {
+  
+  margin: 10px;
+display: grid;
+height: 100vh;
+grid-template-columns: 2fr;
+grid-template-rows: 0.1fr 1fr 1fr 1fr 0.1fr;
+grid-template-areas:
+  "header header header"
+  "content-exhibition content-exhibition content-exhibition"
+  "content-exhi content-exhi content-exhi"
+  "content-exhi content-exhi content-exhi"  
+  "footer footer footer";
+text-align: center;
+justify-content: center;
+font-size: 15px;
 
+
+}
+#content-exhibition {
+  grid-area: content-exhibition;
+}
+.content-exhibition {
+  justify-content: center;
+  margin:auto;
+font-weight: 100;
+  max-width: 600px;
+}
   .forsidebilde {
       max-height: 500px;
   }
@@ -125,10 +155,22 @@ font-size: 15px;
   }
 
 
-  
+#color-evolution{
+  color: #2878C8;
+}
+#color-biology {
+  color: #86528B;
+
+}
+#color-robotics {
+  color: #F75C9A;
+}
+#color-ecology {
+  color: #26A698;
+}
   #header {
     background: #ffffff;
-    text-align: left;
+    text-align: right;
     grid-area: header;
     border-radius: 4px;
     padding-top: 4px;
@@ -186,6 +228,7 @@ font-size: 15px;
 
   #footer,#footer1 {
     background: #64ffda;
+    text-align: center;
     grid-area: footer;
     border-radius: 4px;
     padding-top: 4px;
@@ -197,7 +240,9 @@ font-size: 15px;
 
     position: absolute;
   }
-
+.menu{
+  text-align: right;
+}
 
   #content-tickets1 {
     min-height: 191px;
@@ -251,6 +296,7 @@ font-size: 15px;
   #content-gallery {
     grid-area: content-gallery;
   }
+
 
   nav {
     display: none;
@@ -351,7 +397,17 @@ font-size: 15px;
       margin-top: -20px;
     }
        .menu-icon{
+         margin-top: -25px;
+         
         display:block;
+      }
+      #nav2{
+        text-align: center;
+        width: 100%;
+        margin-left: -16px;
+        margin-top: 8px;
+        margin-right: 200px;
+        position: absolute;
       }
       .forsidebilde2 {
           display: none;
